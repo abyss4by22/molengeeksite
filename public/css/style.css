@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'roboto';
+}
+/* nav */
+header,ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+ list-style: none;
+}
+ul a{
+  text-decoration: none;
+  color: inherit;
+}
+header{
+  height: 70px;
+  margin-top: 40px;
+  
+  
+}
+ul{
+  width: 50%;
+  
+}
+
+/* main */
+main{
+  
+  background-image: url(../../images/molenhero.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  background-position: center center; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main a {
+  color: white;
+  text-decoration: none;
+  background-color: purple;
+  padding: 10px;
+}
+/* what is molen */
+main+section{
+  height: 250px;
+}
+main+section h2{
+  text-align: center;
+ 
+ 
+}
+main+section p{
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 15%;
+}
